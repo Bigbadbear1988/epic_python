@@ -1,6 +1,10 @@
-s = str(input('Введите текст - ')) 
+def f(s, n):
+    if len(s) > n:
+        return s.upper()
+    else:
+        return s
+
+s = (input('Введите текст - ')) 
 n = int(input('Введите число - '))
-if len(s) > n:
-    print(s.upper())
-else:
-    print (s)
+result = f(s, n)
+print(result)
