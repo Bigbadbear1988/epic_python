@@ -4,5 +4,5 @@ def functional (x):
     else:
         return 4
 
-x = int(input("введите значение x - "))
+x = float(input("введите значение x - "))
 print (functional (x))
